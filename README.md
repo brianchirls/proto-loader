@@ -1,11 +1,40 @@
 # Protocol Buffer loader module for webpack
 
-For use with [webpack](http://webpack.github.io/docs/) and [ProtoBuf.js](https://github.com/dcodeIO/ProtoBuf.js)
+Converts .proto files into JSON so they can be [loaded without a parser](https://github.com/dcodeIO/ProtoBuf.js/wiki/Builder#using-json-without-the-proto-parser). For use with [webpack](http://webpack.github.io/docs/) and [ProtoBuf.js](https://github.com/dcodeIO/ProtoBuf.js)
 
 ## Installation
 npm install json-loader
 
+## Usage
 
+[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
+
+``` javascript
+var ProtoBuf = require("protobufjs");
+
+var protoDefinition = require('proto!./message.proto');
+// => returns object converted from message.proto, resolves imports
+
+var builder = ProtoBuf.loadJson(protoDefinition);
+//...
+```
+
+### webpack config
+
+``` javascript
+module.exports = {
+  module: {
+    loaders: [
+      {
+        test: /\.proto$/,
+        loader: "proto-loader"
+      }
+    ]
+  }
+};
+```
+
+Then you only need to write: `require("./message.proto")`
 
 
 ## License
