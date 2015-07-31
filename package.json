@@ -1,0 +1,33 @@
+{
+  "name": "proto-loader",
+  "version": "0.1.0",
+  "description": "Protocol Buffer loader module for webpack",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "protobuf",
+    "proto",
+    "protocol",
+    "buffer"
+  ],
+  "author": "Brian Chirls @bchirls",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianchirls/proto-loader.git"
+  },
+  "peerDependencies": {
+    "protobufjs": "^4.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.10.5"
+  },
+  "dependencies": {
+    "loader-utils": "^0.2.11"
+  }
+}

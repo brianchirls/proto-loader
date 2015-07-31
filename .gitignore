@@ -1,0 +1,3 @@
+node_modules
+/example/out
+.DS_Store
