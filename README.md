@@ -10,13 +10,8 @@ npm install json-loader
 [Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
 ``` javascript
-var ProtoBuf = require("protobufjs");
-
 var protoDefinition = require('proto!./message.proto');
 // => returns object converted from message.proto, resolves imports
-
-var builder = ProtoBuf.loadJson(protoDefinition);
-//...
 ```
 
 ### webpack config
