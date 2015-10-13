@@ -1,7 +1,5 @@
-var ProtoBuf = require('protobufjs');
+var testPackage = require('./test.proto');
 
-var proto = require('./test.proto');
-
-var pbuf = ProtoBuf.loadJson(proto).build();
-console.log(Object.keys(pbuf));
-console.log(Object.keys(pbuf.js));
+console.log(Object.keys(testPackage));
+console.log(Object.keys(testPackage.js));
+console.log(Object.keys(testPackage.Person));
