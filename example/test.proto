@@ -1,3 +1,5 @@
+syntax = "proto3";
+
 // Everything below is located in the js-namespace
 package js;
 
