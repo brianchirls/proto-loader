@@ -3,7 +3,7 @@
 Converts .proto files into JSON so they can be [loaded without a parser](https://github.com/dcodeIO/ProtoBuf.js/wiki/Builder#using-json-without-the-proto-parser). For use with [webpack](http://webpack.github.io/docs/) and [ProtoBuf.js](https://github.com/dcodeIO/ProtoBuf.js)
 
 ## Installation
-npm install json-loader
+npm install proto-loader
 
 ## Usage
 

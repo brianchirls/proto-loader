@@ -11,6 +11,7 @@
     "buffer"
   ],
   "author": "Brian Chirls @bchirls",
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
@@ -22,7 +23,7 @@
     "url": "https://github.com/brianchirls/proto-loader.git"
   },
   "peerDependencies": {
-    "protobufjs": "^4.0.0"
+    "protobufjs": "^4.1.2"
   },
   "devDependencies": {
     "webpack": "^1.10.5"
