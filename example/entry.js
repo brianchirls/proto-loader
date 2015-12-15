@@ -1,4 +1,4 @@
-var ProtoBuf = require('protobufjs');
+var ProtoBuf = require('protobufjs/dist/protobuf-light');
 
 var proto = require('./test.proto');
 
