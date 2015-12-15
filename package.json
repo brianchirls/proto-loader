@@ -1,6 +1,6 @@
 {
   "name": "proto-loader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Protocol Buffer loader module for webpack",
   "main": "index.js",
   "keywords": [
