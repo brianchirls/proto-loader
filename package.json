@@ -23,10 +23,8 @@
     "url": "https://github.com/brianchirls/proto-loader.git"
   },
   "peerDependencies": {
-    "protobufjs": "^4.1.2"
-  },
-  "devDependencies": {
-    "webpack": "^1.10.5"
+    "webpack": "^1.12.9",
+    "protobufjs": "^5.0.0"
   },
   "dependencies": {
     "loader-utils": "^0.2.11"
